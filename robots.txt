@@ -1,4 +1,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://vuepress-theme-hope-docs-demo.netlify.app/Docs/sitemap.xml
+Sitemap: https://vuepress-theme-hope-docs-demo.netlify.app/sitemap.xml
