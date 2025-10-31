@@ -70,13 +70,11 @@ services:
 :::
 
 ## 创建容器
-1. 在 `docker-compose.yml` 文件目录下执行：
+在 `docker-compose.yml` 文件目录下执行：
 
 ```bash
 docker compose up -d
 ```
-
-2. 将`game_data`和`game_file`文件夹设置为777权限
 
 ## 🌐 访问面板
 
@@ -96,8 +94,4 @@ docker-compose up -d --pull always
 
 ::: details 无法连接到游戏服务端或不想映射端口
 若您对游戏端口不太清楚，可以将容器网络模式改为host，这样容器中的游戏服务端端口就会映射到宿主机上，直接用宿主机 IP 加游戏端口即可连接。
-:::
-
-::: details 游戏安装后宿主机中没有文件，存档也没有
-将映射的宿主路径文件夹设置为777权限
 :::
