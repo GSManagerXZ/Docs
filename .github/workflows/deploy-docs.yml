@@ -1,7 +1,11 @@
 name: 部署文档
 
 on:
-  workflow_dispatch:
+  push:
+    branches: [ main]
+  pull_request:
+    branches: [ main]
+
 
 permissions:
   contents: write
