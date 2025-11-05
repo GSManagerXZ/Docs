@@ -64,6 +64,51 @@ services:
     #       cpus: '2.0'
     #       memory: 4G
 ```
+若您想一劳永逸或在一个纯净的Docker服务器中只跑GSManager面板可以将网络改为host，这会将容器的端口直接桥接到宿主机，从宿主机一侧控制访问实现全端口开放无需单独映射端口
+```yml
+volumes:
+  gsm3_data:
+    driver: local
+
+services:
+  management_panel:
+    build: .
+    container_name: GSManager3
+    image: xiaozhu674/gameservermanager:latest
+    user: root                       
+    network_mode: "host"
+    volumes:
+    #steam用户数据目录 不建议修改
+      - ./game_data:/home/.config 
+      - ./game_data:/home/.local
+      - ./game_file:/home/steam/games
+    #root用户数据目录 不建议修改
+      - ./game_data:/root/.config 
+      - ./game_data:/root/.local   
+      - ./game_file:/root/steam/games 
+    #面板数据，请勿改动
+      - gsm3_data:/root/server/data 
+    environment:
+      - TZ=Asia/Shanghai              # 设置时区
+      - SERVER_PORT=3001              # GSM3服务端口
+    stdin_open: true                  # 保持STDIN打开
+    tty: true                         # 分配TTY
+    restart: unless-stopped           # 自动重启策略
+    
+    # 如果需要，取消注释下面的行来限制资源
+    # deploy:
+    #   resources:
+    #     limits:
+    #       cpus: '4.0'
+    #       memory: 8G
+    #     reservations:
+    #       cpus: '2.0'
+    #       memory: 4G
+```
+::: warning 警告
+host网络会失去端口管理意义，若您部署在非纯净系统中将会面临端口冲突错误
+:::
+
 
 ::: info 镜像说明
 `image`为镜像名称，需要根据实际下载的镜像名称修改，末尾冒号的右边为版本号，不知道可以使用latest，如果需要进行版本更新建议使用版本号，详情可以从[Github Release](https://github.com/GSManagerXZ/GameServerManager/releases)获取最新版本号。
