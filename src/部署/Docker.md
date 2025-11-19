@@ -38,8 +38,8 @@ services:
       - "27015:27015"
     volumes:
     #steam用户数据目录 不建议修改
-      - ./game_data:/home/.config 
-      - ./game_data:/home/.local
+      - ./game_data:/home/steam/.config 
+      - ./game_data:/home/steam/.local
       - ./game_file:/home/steam/games
     #root用户数据目录 不建议修改
       - ./game_data:/root/.config 
@@ -79,8 +79,8 @@ services:
     network_mode: "host"
     volumes:
     #steam用户数据目录 不建议修改
-      - ./game_data:/home/.config 
-      - ./game_data:/home/.local
+      - ./game_data:/home/steam/.config 
+      - ./game_data:/home/steam/.local
       - ./game_file:/home/steam/games
     #root用户数据目录 不建议修改
       - ./game_data:/root/.config 
@@ -106,7 +106,8 @@ services:
     #       memory: 4G
 ```
 ::: warning 警告
-host网络会失去端口管理意义，若您部署在非纯净系统中将会面临端口冲突错误
+1. host网络会失去端口管理意义，若您部署在非纯净系统中将会面临端口冲突错误
+2. `.local`和`.config `为一些Steam游戏存档文件，此目录需要将文件夹手动设置为777权限否则服务端将无法正常写入文件从而造成存档丢失！
 :::
 
 
