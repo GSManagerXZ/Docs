@@ -1,5 +1,6 @@
 ---
 title: 我的世界BE
+author: 又菜有爱玩的小朱
 ---
 
 ::: info 说明

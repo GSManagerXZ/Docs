@@ -123,7 +123,7 @@ export default hopeTheme({
     comment: false,
 
     components: {
-      components: ["Badge", "VPCard", "AIAssistant"],
+      components: ["Badge", "VPCard", "BiliBili"],
     },
 
     icon: {
