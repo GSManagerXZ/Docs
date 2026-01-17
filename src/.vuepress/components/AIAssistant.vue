@@ -73,7 +73,7 @@
 import { ref } from 'vue'
 
 const isOpen = ref(false)
-const chatUrl = 'https://ai.xiaozhuhouses.asia/chat/1318308284877580'
+const chatUrl = 'https://aikb.xiaozhuhouses.asia/chat/1318308284877580'
 
 const toggleChat = () => {
   isOpen.value = !isOpen.value
