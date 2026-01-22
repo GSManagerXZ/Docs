@@ -65,6 +65,12 @@ curl -Lo install-gsm3.sh http://download.server.xiaozhuhouses.asia:8082/disk1/GS
 
 在浏览器输入：`面板所在IP:3001`（默认端口为 3001）即可访问。
 
+## 更新面板
+
+1. 删除 `public` 文件夹
+2. 删除 `server` 文件夹 可以保留 `.env` `data`
+3. 解压新的面板文件到原来目录即可 
+
 ## ⚙️ 如何修改端口
 
 [点击这里创建配置文件](./面板配置文件.md)
