@@ -59,14 +59,14 @@ author: 又菜有爱玩的小朱
 1. 上传文件到文件管理中：
    - Windows 可在任意目录创建服务端文件夹
    - Linux 容器需放在 `/root` 目录，并以 root 用户运行服务端
-   ![](https://images.xiaozhuhouses.asia:3000/i/2025/07/25/k6i5yo.png)
+   ![](https://images.xiaozhuhouses.asia/i/2025/07/25/k6i5yo.png)
 2. 创建实例
    - 选择复制绝对路径
-   ![](https://images.xiaozhuhouses.asia:3000/i/2025/07/25/jvsg2p.png)
+   ![](https://images.xiaozhuhouses.asia/i/2025/07/25/jvsg2p.png)
    - 启动命令：`java -jar server.jar nogui`
-   ![](https://images.xiaozhuhouses.asia:3000/i/2025/07/25/k89uaw.png)
+   ![](https://images.xiaozhuhouses.asia/i/2025/07/25/k89uaw.png)
 3. 启动实例
-   ![](https://images.xiaozhuhouses.asia:3000/i/2025/07/25/jybtie.png)
+   ![](https://images.xiaozhuhouses.asia/i/2025/07/25/jybtie.png)
 
 ::: warning 注意
 如需公网访问，需要开放/映射 25565 TCP 端口。

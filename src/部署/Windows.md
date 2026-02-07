@@ -43,7 +43,7 @@ Windows 默认开启防火墙，需要进行以下配置：
 2. 允许面板程序通过防火墙
 3. 或临时关闭防火墙（不推荐）
 
-![Windows防火墙设置](https://images.xiaozhuhouses.asia:3000/i/2025/07/20/u6apvm.png)
+![Windows防火墙设置](https://images.xiaozhuhouses.asia/i/2025/07/20/u6apvm.png)
 :::
 
 ::: tip 特殊环境配置
