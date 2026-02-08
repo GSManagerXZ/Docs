@@ -11,7 +11,7 @@ order: 3
 ## 一键安装脚本(推荐)
 
 ```bash
-curl -Lo install-gsm3.sh http://download.xiaozhuhouses.asia:8082/开源项目/GSManager/GSManager3/install-gsm3.sh && sudo bash install-gsm3.sh
+curl -Lo install-gsm3.sh https://download.xiaozhuhouses.asia/开源项目/GSManager/GSManager3/install-gsm3.sh && sudo bash install-gsm3.sh
 ```
 
 ## 手动安装
