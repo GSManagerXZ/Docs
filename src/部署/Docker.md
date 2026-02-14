@@ -27,7 +27,6 @@ volumes:
 
 services:
   management_panel:
-    build: .
     container_name: GSManager3
     image: xiaozhu674/gameservermanager:latest
     user: root                       
@@ -72,7 +71,6 @@ volumes:
 
 services:
   management_panel:
-    build: .
     container_name: GSManager3
     image: xiaozhu674/gameservermanager:latest
     user: root                       
