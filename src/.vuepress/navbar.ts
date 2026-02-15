@@ -39,4 +39,9 @@ export default navbar([
     icon: "fa-cloud",
     link: "https://download.mc.xiaozhuhouses.asia:4433",
   },
+    {
+    text: "项目所有资源",
+    icon: "fa-cloud-arrow-down",
+    link: "https://rs.xiaozhuhouses.asia/modules/GSManager",
+  },
 ]);
