@@ -11,7 +11,7 @@ order: 2
 ## 🚀 一、下载文件
 
 下载 GSManager：
-  - [国内下载源](https://download.xiaozhuhouses.asia/download/v1/links/V9YtKnPv-dXPqnFGmEpzclkCraotWQZx1J6ybl3X1YA)
+  - [国内下载源](https://download.xiaozhuhouses.asia/download/v1/links/f-xrFCxs8P_bIsuMK5xX__0wkKnCPpn119fC381AwBU)
   - [GitHub](https://github.com/GSManagerXZ/GameServerManager/releases/latest)
 
 ## 📤 二、上传与解压文件

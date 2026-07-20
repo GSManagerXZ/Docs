@@ -11,7 +11,7 @@ order: 3
 ## 一键安装脚本(推荐)
 
 ```bash
-curl -Lo install-gsm3.sh https://download.xiaozhuhouses.asia/download/v1/links/bu0edlHANiSVH2-57RPkEV8DWrxJDTqw6HkWkM3oOu0 && sudo bash install-gsm3.sh
+curl -Lo install-gsm3.sh https://download.xiaozhuhouses.asia/download/v1/links/BM44OCu-TLMKytaxtcbbtpNFioBORhGORzUtUuf47NU && sudo bash install-gsm3.sh
 ```
 
 ## 手动安装
@@ -32,7 +32,7 @@ curl -Lo install-gsm3.sh https://download.xiaozhuhouses.asia/download/v1/links/b
 
 1. 下载面板压缩包：
    ```bash
-   wget -O gsm3-management-panel-linux.tar.gz https://download.xiaozhuhouses.asia/download/v1/links/3HGKz0e7F2OYzEvv9KhxyVeJXYAVRjxSCoHxst--YEs
+   wget -O gsm3-management-panel-linux.tar.gz https://download.xiaozhuhouses.asia/download/v1/links/KG5XmuvMB2WlnW51Dk8kCJorL8EqSoqoSL6PBH9sIu4
    ```
 2. 解压文件：
    ```bash
