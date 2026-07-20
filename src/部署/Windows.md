@@ -11,7 +11,7 @@ order: 2
 ## 🚀 一、下载文件
 
 下载 GSManager：
-  - [国内下载源](http://langlangy.server.xiaozhuhouses.asia:8082/disk1/GSM3/gsm3-management-panel-windows.zip)
+  - [国内下载源](https://download.xiaozhuhouses.asia/download/v1/links/V9YtKnPv-dXPqnFGmEpzclkCraotWQZx1J6ybl3X1YA)
   - [GitHub](https://github.com/GSManagerXZ/GameServerManager/releases/latest)
 
 ## 📤 二、上传与解压文件
