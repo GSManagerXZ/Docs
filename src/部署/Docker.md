@@ -8,6 +8,16 @@ order: 4
 GSManager3中采用的仍然是游戏容器，拥有绝大部分的游戏运行库，所有游戏都跑在容器中，需要对Docker需要具备基础知识。建议搭配[1panel](https://1panel.cn/)面板进行使用
 :::
 
+::: tip 提示
+作者推荐您使用 [毫秒镜像站](https://1ms.run/) 拉取镜像，您只需要输入以下命令即可完成配置镜像加速
+```bash
+bash <(curl -sSL https://n3.ink/helper)
+```
+[毫秒镜像站](https://1ms.run/) 为本项目的镜像提供了专属加速通道，提供比其它镜像拉取更快更稳定的效果。
+![](https://1ms.run/logo-light.svg)
+:::
+
+
 <AutoCatalog />
 
 ## 拉取镜像
@@ -131,10 +141,6 @@ docker-compose up -d --pull always
 ```
 
 ## 常见问题
-
-::: details 无法拉取镜像
-若您使用设备在中国大陆，dockerhub默认仓库受网络封锁属于正常情况，目前观察到1panel镜像源将本项目进行了缓存，实测可以以较快速度拉取，[了解详情](https://1panel.cn/docs/v2/user_manual/containers/setting/#1)
-:::
 
 ::: details 无法连接到游戏服务端或不想映射端口
 若您对游戏端口不太清楚，可以将容器网络模式改为host，这样容器中的游戏服务端端口就会映射到宿主机上，直接用宿主机 IP 加游戏端口即可连接。
