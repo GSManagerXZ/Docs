@@ -14,7 +14,7 @@ GSManager3中采用的仍然是游戏容器，拥有绝大部分的游戏运行�
 bash <(curl -sSL https://n3.ink/helper)
 ```
 [毫秒镜像站](https://1ms.run/) 为本项目的镜像提供了专属加速通道，提供比其它镜像拉取更快更稳定的效果。
-![](https://1ms.run/logo-light.svg)
+<img src="https://1ms.run/logo-light.svg" alt="毫秒镜像站" width="160" />
 :::
 
 
