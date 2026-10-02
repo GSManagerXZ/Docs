@@ -11,7 +11,7 @@ order: 3
 ## 一键安装脚本(推荐)
 
 ```bash
-curl -Lo install-gsm3.sh https://download.xiaozhuhouses.asia/download/v1/links/BM44OCu-TLMKytaxtcbbtpNFioBORhGORzUtUuf47NU && sudo bash install-gsm3.sh
+curl -Lo install-gsm3.sh https://web.files.xiaozhuhouses.asia/files/%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/GameServerManager/install-gsm3.sh && sudo bash install-gsm3.sh
 ```
 
 ## 手动安装
@@ -32,7 +32,7 @@ curl -Lo install-gsm3.sh https://download.xiaozhuhouses.asia/download/v1/links/B
 
 1. 下载面板压缩包：
    ```bash
-   wget -O gsm3-management-panel-linux.tar.gz https://download.xiaozhuhouses.asia/download/v1/links/KG5XmuvMB2WlnW51Dk8kCJorL8EqSoqoSL6PBH9sIu4
+   wget -O gsm3-management-panel-linux.tar.gz https://download.xiaozhuhouses.asia/d/17af097337c61f88cf33d6f29b24ee39/gsm3-management-panel-linux.tar.gz
    ```
 2. 解压文件：
    ```bash
