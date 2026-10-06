@@ -19,21 +19,21 @@ BE 代表基岩版，Linux 和 Windows 开服完全一样：
 2. 文件管理中：
    - Windows 可在任意目录创建服务端文件夹
    - Linux 容器需放在 `/root` 目录，并以 root 用户运行服务端
-   ![](https://images.xiaozhuhouses.asia/i/2025/07/25/j6ad30.png)
+   ![](https://images-web.cn-nb1.rains3.com/GSManager/j6ad30.png)
 3. 解压
-   ![](https://images.xiaozhuhouses.asia/i/2025/07/25/juny6w.png)
-   ![](https://images.xiaozhuhouses.asia/i/2025/07/25/jv5e3e.png)
+   ![](https://images-web.cn-nb1.rains3.com/GSManager/juny6w.png)
+   ![](https://images-web.cn-nb1.rains3.com/GSManager/jv5e3e.png)
 4. 创建实例
    - 选择复制绝对路径
-   ![](https://images.xiaozhuhouses.asia/i/2025/07/25/jvsg2p.png)
+   ![](https://images-web.cn-nb1.rains3.com/GSManager/jvsg2p.png)
    - 启动命令：
      - Windows：`.\bedrock_server.exe`
      - Linux：`./bedrock_server`
-   ![](https://images.xiaozhuhouses.asia/i/2025/07/25/jx1ilq.png)
-   ![](https://images.xiaozhuhouses.asia/i/2025/07/25/jy5cj2.png)
+   ![](https://images-web.cn-nb1.rains3.com/GSManager/jx1ilq.png)
+   ![](https://images-web.cn-nb1.rains3.com/GSManager/jy5cj2.png)
 5. 启动实例
-   ![](https://images.xiaozhuhouses.asia/i/2025/07/25/jybtie.png)
-   ![](https://images.xiaozhuhouses.asia/i/2025/07/25/jyomt3.png)
+   ![](https://images-web.cn-nb1.rains3.com/GSManager/jybtie.png)
+   ![](https://images-web.cn-nb1.rains3.com/GSManager/jyomt3.png)
 
 ## 开放端口
 ::: warning 注意
